@@ -1,0 +1,94 @@
+h2{
+	color: pink;
+	font-size: 25px;
+}
+
+p{
+	color: gray;
+	font-weight: 100;
+	font-size: medium;
+	padding-top: 50px;
+}
+
+#copyright{
+	color: salmon;
+	margin: 2px 4px;
+	text-align: center;
+}
+
+.blockquote{
+	background-color: paleturquoise;
+	color: gray;
+	font-style: italic
+}
+
+h3{
+	color: burlywood;
+	font-weight: lighter;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	position: absolute;
+}
+
+img{
+	border: 5px solid pink;
+}
+html {   
+	background: url(https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg) black; 
+}
+
+header {
+	padding: 20px 0px 10px;
+	background:lightblue;
+	width: 100%;
+	min-height: 150px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+header h1 {
+	clear: both;
+	padding-left: 25px;
+	margin-bottom: 0px;
+	color: papayawhip;
+
+}
+
+#top-nav {
+	float:right;
+	margin-top: 1%;
+	margin-left: 10%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	position: relative
+	
+}
+#top-nav ul li {
+	display: inline;
+	padding: 10px;
+	text-decoration: dotted;
+	color: papayawhip;
+}
+#top-nav ul li a:hover,
+#top-nav ul li a:focus,
+#top-nav ul li a:active {
+	color:#16f;
+	border-bottom: 2px solid palevioletred;
+	text-decoration: underline;
+}
+
+#main{
+	padding: 50px;
+	column-count: 2;
+}
+footer{
+	padding: 20px;
+	position: fixed;
+}
+#writing{
+	border: 5px solid pink;
+	padding: 10px;
+}
